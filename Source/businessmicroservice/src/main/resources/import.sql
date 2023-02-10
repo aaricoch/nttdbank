@@ -3,3 +3,7 @@
 -- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-1');
 -- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-2');
 -- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-3');
+insert into DocumentType (documentTypeCode, documentTypeName) values(nextval('hibernate_sequence'), 'DNI');
+insert into DocumentType (documentTypeCode, documentTypeName) values(nextval('hibernate_sequence'), 'Pasaporte');
+insert into DocumentType (documentTypeCode, documentTypeName) values(nextval('hibernate_sequence'), 'Carnet de Extranjería');
+insert into DocumentType (documentTypeCode, documentTypeName) values(nextval('hibernate_sequence'), 'RUC');
